@@ -1,0 +1,14 @@
+name: jarvis_mobile
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  speech_to_text: ^6.6.0
+  flutter_tts: ^3.8.5
+  http: ^1.1.0
+  avatar_glow: ^3.0.1
+flutter:
+  uses-material-design: true
