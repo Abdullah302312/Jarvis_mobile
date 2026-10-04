@@ -1,9 +1,9 @@
-const String groqApiKey = "PASTE_YOUR_GROQ_KEY_HERE";import 'package:flutter/material.dart';
 import 'package:speech_to_text/speech_to_text.dart' as stt;
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 import 'package:avatar_glow/avatar_glow.dart';
+const String groqApiKey = "PASTE_YOUR_GROQ_KEY_HERE";import 'package:flutter/material.dart';
 
 void main()=>runApp(MaterialApp(home:JarvisHome(),debugShowCheckedModeBanner:false));
 class JarvisHome extends StatefulWidget{ _JarvisHomeState createState()=>_JarvisHomeState();}
